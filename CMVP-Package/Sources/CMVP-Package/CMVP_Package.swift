@@ -1,6 +1,7 @@
-public struct CMVP_Package {
-    public private(set) var text = "Hello, World!"
+public class CMVP_Package {
+    public init() {}
 
-    public init() {
+    public func multitply(_ valueX: Int, with valueY: Int) -> Int {
+        return valueX * valueY
     }
 }
